@@ -1,0 +1,68 @@
+---
+title: "Dashboard"
+format: 
+  dashboard:
+    theme: cosmo
+---
+
+```{r}
+#| label: setup
+#| warning: false
+#| message: false
+
+library(ggplot2)
+library(dplyr)
+library(palmerpenguins)
+
+penguins_clean <- na.omit(palmerpenguins::penguins)
+```
+
+## Row
+
+### Scatter Plot
+
+```{r}
+ggplot(penguins_clean, aes(x = bill_length_mm, y = bill_depth_mm, color = species)) +
+  geom_point(size = 2) +
+  labs(
+    title = "Bill Length vs Bill Depth",
+    x = "Bill Length (mm)",
+    y = "Bill Depth (mm)"
+  ) +
+  theme_minimal()
+```
+
+### Bar Chart
+
+```{r}
+penguins_clean |>
+  count(species) |>
+  ggplot(aes(x = species, y = n, fill = species)) +
+  geom_col() +
+  labs(
+    title = "Number of Penguins by Species",
+    x = "Species",
+    y = "Count"
+  ) +
+  theme_minimal()
+```
+
+## Row
+
+### Summary Table
+
+```{r}
+penguins_clean |>
+  group_by(species) |>
+  summarise(
+    avg_bill_length = mean(bill_length_mm),
+    avg_bill_depth = mean(bill_depth_mm),
+    avg_flipper_length = mean(flipper_length_mm),
+    .groups = "drop"
+  )
+```
+
+### Interpretation
+
+This dashboard compares penguin species using bill measurements and flipper length. The scatter plot shows the relationship between bill length and bill depth, while the bar chart shows how many penguins belong to each species. The summary table provides average measurements for each group.
+---

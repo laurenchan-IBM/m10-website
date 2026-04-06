@@ -1,0 +1,26 @@
+---
+title: "About"
+---
+
+# About Me
+
+This website was created for Module 10.
+
+It includes:
+
+- A home page
+- A dashboard
+- An essay on Shiny apps
+- An essay on Shinylive
+
+## Purpose
+
+The purpose of this project is to demonstrate my understanding of how to share outputs with an audience using Quarto.
+
+## What I Learned
+
+- How to build a website using Quarto
+- How to create dashboards
+- How Shiny apps work
+- How Shinylive differs from Shiny
+---
