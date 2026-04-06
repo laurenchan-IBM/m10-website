@@ -1,0 +1,128 @@
+[
+  {
+    "objectID": "shinylive.html",
+    "href": "shinylive.html",
+    "title": "Essay on Shinylive",
+    "section": "",
+    "text": "What is Shinylive? How does it differ from the traditional Shiny app? What are the pros and cons of Shinylive in comparison with Shiny Apps?\n\n\n\nShinylive is a way to run Shiny applications directly in the web browser. Instead of depending on a live R server, Shinylive uses browser-based technology so the app can run on the client side.\n\n\n\nTraditional Shiny apps usually depend on a server. When a user interacts with the app, the request is processed on the server and the result is sent back to the browser.\nShinylive is different because the app runs in the browser itself. This makes it possible to publish the app more like a static website.\n\n\n\n\n\nShinylive apps can be hosted as static files, which makes them easier to publish on services like GitHub Pages.\n\n\n\nThere is no need to maintain a full Shiny server for simple projects.\n\n\n\nShinylive is especially useful for lightweight educational examples and demonstrations.\n\n\n\n\n\n\nNot every Shiny feature works the same way in a browser-based environment.\n\n\n\nHeavy computations may be harder to run in the browser than on a server.\n\n\n\nTraditional Shiny is still better for apps that require databases, authentication, or large server-side resources.\n\n\n\n\nTraditional Shiny is better for powerful and complex applications that need server support.\nShinylive is better for lightweight apps that are easy to publish and share online."
+  },
+  {
+    "objectID": "shinylive.html#prompt",
+    "href": "shinylive.html#prompt",
+    "title": "Essay on Shinylive",
+    "section": "",
+    "text": "What is Shinylive? How does it differ from the traditional Shiny app? What are the pros and cons of Shinylive in comparison with Shiny Apps?"
+  },
+  {
+    "objectID": "shinylive.html#what-is-shinylive",
+    "href": "shinylive.html#what-is-shinylive",
+    "title": "Essay on Shinylive",
+    "section": "",
+    "text": "Shinylive is a way to run Shiny applications directly in the web browser. Instead of depending on a live R server, Shinylive uses browser-based technology so the app can run on the client side."
+  },
+  {
+    "objectID": "shinylive.html#how-shinylive-differs-from-traditional-shiny",
+    "href": "shinylive.html#how-shinylive-differs-from-traditional-shiny",
+    "title": "Essay on Shinylive",
+    "section": "",
+    "text": "Traditional Shiny apps usually depend on a server. When a user interacts with the app, the request is processed on the server and the result is sent back to the browser.\nShinylive is different because the app runs in the browser itself. This makes it possible to publish the app more like a static website."
+  },
+  {
+    "objectID": "shinylive.html#pros-of-shinylive",
+    "href": "shinylive.html#pros-of-shinylive",
+    "title": "Essay on Shinylive",
+    "section": "",
+    "text": "Shinylive apps can be hosted as static files, which makes them easier to publish on services like GitHub Pages.\n\n\n\nThere is no need to maintain a full Shiny server for simple projects.\n\n\n\nShinylive is especially useful for lightweight educational examples and demonstrations."
+  },
+  {
+    "objectID": "shinylive.html#cons-of-shinylive",
+    "href": "shinylive.html#cons-of-shinylive",
+    "title": "Essay on Shinylive",
+    "section": "",
+    "text": "Not every Shiny feature works the same way in a browser-based environment.\n\n\n\nHeavy computations may be harder to run in the browser than on a server.\n\n\n\nTraditional Shiny is still better for apps that require databases, authentication, or large server-side resources."
+  },
+  {
+    "objectID": "shinylive.html#comparison-summary",
+    "href": "shinylive.html#comparison-summary",
+    "title": "Essay on Shinylive",
+    "section": "",
+    "text": "Traditional Shiny is better for powerful and complex applications that need server support.\nShinylive is better for lightweight apps that are easy to publish and share online."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This website was created for Module 10.\nIt includes:\n\nA home page\nA dashboard\nAn essay on Shiny apps\nAn essay on Shinylive\n\n\n\nThe purpose of this project is to demonstrate my understanding of how to share outputs with an audience using Quarto.\n\n\n\n\nHow to build a website using Quarto\nHow to create dashboards\nHow Shiny apps work"
+  },
+  {
+    "objectID": "about.html#purpose",
+    "href": "about.html#purpose",
+    "title": "About",
+    "section": "",
+    "text": "The purpose of this project is to demonstrate my understanding of how to share outputs with an audience using Quarto."
+  },
+  {
+    "objectID": "about.html#what-i-learned",
+    "href": "about.html#what-i-learned",
+    "title": "About",
+    "section": "",
+    "text": "How to build a website using Quarto\nHow to create dashboards\nHow Shiny apps work"
+  },
+  {
+    "objectID": "shiny-apps.html",
+    "href": "shiny-apps.html",
+    "title": "Essay on Shiny Apps",
+    "section": "",
+    "text": "Assume that your coworkers are interested in learning about Shiny. Create a lecture note that teaches them what Shiny is and how it works.\n\n\n\nShiny is an R package that allows users to build interactive web applications directly from R. It is especially useful for data analysts and data scientists who want to share data tools, visualizations, and models through a web browser.\n\n\n\nShiny is important because it allows people to move beyond static graphs and reports. A Shiny app lets the audience interact with the data by choosing filters, selecting variables, and seeing results update immediately.\n\n\n\nA traditional Shiny app usually has two main parts.\n\n\nThe user interface controls what the audience sees in the browser. This includes titles, plots, tables, buttons, sliders, and menus.\n\n\n\nThe server controls the logic of the app. It tells R how to respond when a user interacts with the app. For example, when a user selects a new variable, the server updates the graph or table.\n\n\n\n\nShiny apps can be used for:\n\ninteractive dashboards\ndata exploration\nbusiness reporting\nteaching tools\nmodel demonstrations\n\n\n\n\n\nIt is friendly for R users.\nIt helps make analysis interactive.\nIt is useful for teaching and presentations.\nIt supports dashboards and apps for decision-making.\n\n\n\n\n\nTraditional Shiny apps usually require a server.\nLarge apps can become complex.\nDeployment may take more technical setup than a static report."
+  },
+  {
+    "objectID": "shiny-apps.html#prompt",
+    "href": "shiny-apps.html#prompt",
+    "title": "Essay on Shiny Apps",
+    "section": "",
+    "text": "Assume that your coworkers are interested in learning about Shiny. Create a lecture note that teaches them what Shiny is and how it works."
+  },
+  {
+    "objectID": "shiny-apps.html#what-is-shiny",
+    "href": "shiny-apps.html#what-is-shiny",
+    "title": "Essay on Shiny Apps",
+    "section": "",
+    "text": "Shiny is an R package that allows users to build interactive web applications directly from R. It is especially useful for data analysts and data scientists who want to share data tools, visualizations, and models through a web browser."
+  },
+  {
+    "objectID": "shiny-apps.html#why-shiny-matters",
+    "href": "shiny-apps.html#why-shiny-matters",
+    "title": "Essay on Shiny Apps",
+    "section": "",
+    "text": "Shiny is important because it allows people to move beyond static graphs and reports. A Shiny app lets the audience interact with the data by choosing filters, selecting variables, and seeing results update immediately."
+  },
+  {
+    "objectID": "shiny-apps.html#basic-structure-of-a-shiny-app",
+    "href": "shiny-apps.html#basic-structure-of-a-shiny-app",
+    "title": "Essay on Shiny Apps",
+    "section": "",
+    "text": "A traditional Shiny app usually has two main parts.\n\n\nThe user interface controls what the audience sees in the browser. This includes titles, plots, tables, buttons, sliders, and menus.\n\n\n\nThe server controls the logic of the app. It tells R how to respond when a user interacts with the app. For example, when a user selects a new variable, the server updates the graph or table."
+  },
+  {
+    "objectID": "shiny-apps.html#example-use-cases",
+    "href": "shiny-apps.html#example-use-cases",
+    "title": "Essay on Shiny Apps",
+    "section": "",
+    "text": "Shiny apps can be used for:\n\ninteractive dashboards\ndata exploration\nbusiness reporting\nteaching tools\nmodel demonstrations"
+  },
+  {
+    "objectID": "shiny-apps.html#strengths-of-shiny",
+    "href": "shiny-apps.html#strengths-of-shiny",
+    "title": "Essay on Shiny Apps",
+    "section": "",
+    "text": "It is friendly for R users.\nIt helps make analysis interactive.\nIt is useful for teaching and presentations.\nIt supports dashboards and apps for decision-making."
+  },
+  {
+    "objectID": "shiny-apps.html#challenges-of-shiny",
+    "href": "shiny-apps.html#challenges-of-shiny",
+    "title": "Essay on Shiny Apps",
+    "section": "",
+    "text": "Traditional Shiny apps usually require a server.\nLarge apps can become complex.\nDeployment may take more technical setup than a static report."
+  }
+]
